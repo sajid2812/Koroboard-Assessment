@@ -1,0 +1,166 @@
+img {
+  width: 139.4px;
+  height: 40px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #dddddd;
+  padding: 16px;
+}
+
+.container {
+  display: flex;
+}
+
+aside {
+  width: 20%;
+  padding: 16px;
+  box-shadow: 4px 0 4px -1px #e5e5e5;
+}
+
+main {
+  width: 80%;
+  margin-left: 16px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  color: #2c2c2c;
+}
+
+p {
+  line-height: 30px;
+}
+
+p span {
+  color: #2c2c2c;
+  margin: 0 8px;
+}
+
+a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: 500;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+ul {
+  padding: 16px 0;
+}
+
+li {
+  list-style: none;
+  padding: 10px 0;
+  margin: 16px 0;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+li span {
+  margin: 0 16px;
+  font-size: 32px;
+}
+
+li:first-child {
+  background: #f4f4f4;
+  border-radius: 5px;
+  border-right: 10px solid #0077b6;
+  color: #2c2c2c;
+  font-weight: 600;
+}
+
+.header-logo {
+  width: 20%;
+  margin-right: 32px;
+}
+.header-control {
+  width: 80%;
+  margin: 0 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-control-left {
+  margin: 0 16px;
+}
+.header-control-left button,
+.header-control-left a {
+  margin: 0 8px;
+}
+.account-details {
+  width: 300px;
+  height: 164px;
+  background: #f4f4f4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.account-details span {
+  font-size: 41.67px;
+  color: #0077b6;
+  margin-bottom: 16px;
+}
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  margin: 8px;
+}
+
+.main-info p {
+  line-height: 30px;
+}
+
+.main-info-details h2 {
+  margin-bottom: 24px;
+}
+.main-info-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-info-buttons button {
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.btn-update {
+  color: #ffffff;
+  background: #0077b6;
+  border: 1px solid #0077b6;
+}
+
+.btn-mark {
+  border: 1px solid #cccccc;
+  color: #0077b6;
+}
+
+.btn-download {
+  border: 1px solid #dddddd;
+  color: #bd4931;
+}
+
+.cards-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-section {
+  padding: 8px;
+  margin: 8px;
+}
